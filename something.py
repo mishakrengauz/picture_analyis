@@ -13,7 +13,7 @@ for i in range(width):
         a = pix[i, j][0]
         b = pix[i, j][1]
         c = pix[i, j][2]
-        S = (a + b + c)
+        S = (a*0.3 + b*0.59 + c*0.11)
         if S > brightness:
             print(S)
 print(width, height)
